@@ -145,7 +145,7 @@ function run() {
           if (!sayWord) done() 
           else {
 
-            const filepath = getFilepath(sayWord)
+            const filepath = require('path').resolve(__dirname, getFilepath(sayWord))
             const delay = +options.delay
   
             const [, action, params] = sayWord.match(/^(.*):(.*)$/i) || []
