@@ -2,6 +2,12 @@
   "name": "voxgen",
   "version": "1.0.2",
   "license": "MIT",
+  "author": {
+    "name": "Eli Sklar",
+    "email": "eli.sklar@gmail.com",
+    "url": "https://github.com/elis"
+  },
+  "description": "Speech synthesising from the cli using Half-Life and Black Mesa VOX voice packs",
   "bin": {
     "vox": "./bin/vox"
   },
@@ -11,6 +17,15 @@
     "cli-table3": "^0.6.0",
     "commander": "^7.0.0",
     "node-wav-player": "^0.2.0",
+    "term-size": "^2.2.1",
     "wav-file-info": "^0.0.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0"
   }
 }
