@@ -8,6 +8,8 @@
 
 # Usage
 
+![Example Usage](https://raw.githubusercontent.com/elis/voxgen/main/assets/img/voxgif.gif)
+
 ## Instant Use (via NPX)
 
 ```bash
